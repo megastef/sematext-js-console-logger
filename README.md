@@ -14,13 +14,13 @@ Once you created a logs App, add this script to your web-page:
 
 - Sematext Cloud in USA
 ```
-<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js">
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger/index.min.js">
   sematextLogger('YOUR_LOGS_TOKEN', 'US')
 </script>
 ```
 - Sematext Cloud in Europe
 ```
-<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js">
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger/index.min.js">
   // Sematext Cloud in Europe
   sematextLogger('YOUR_LOGS_TOKEN', 'EU')
 </script>
@@ -28,7 +28,7 @@ Once you created a logs App, add this script to your web-page:
 
 - Sematext Enterprise
 ```
-<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js">
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger/index.min.js">
   // Sematext Enterprise 
   sematextLogger('YOUR_LOGS_TOKEN', 'local', 'http://your-sematext-server:port')
 </script>
