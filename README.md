@@ -8,6 +8,8 @@ Logs are displayed in browser console and forwarded to Sematext Cloud.
 In addition it installs an error handler logging all errors. 
 All logs are enriched with sessionId from cookies, url, and user agent etc. 
 
+See also: [quick start instructions to setup your log storage](https://sematext.com/docs/logs/quick-start/). 
+
 Example web page: 
 
 ```html
