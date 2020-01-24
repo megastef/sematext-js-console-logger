@@ -15,7 +15,7 @@ Example web page:
 ```html
 <html>
 <body>
-<script src="https://rawgit.com/megastef/sematext-js-console-logger/master/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js"></script>
 <script language="JavaScript">
 // use your sematext logs token, and set region to US or EU
 sematextLogger('c0e39f27-xxxx-xxxx-9f27-8818a4f0b59d', 'US')
