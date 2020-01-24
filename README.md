@@ -1,8 +1,12 @@
 # sematext-js-console-logger
 
-Writing all browser logs to Sematext Cloud. This library overwrites console.log, console.error, console.warn functions. In additionit installs an error handler that logs all errors. 
+Persist your browser logs in Sematext Cloud with no code changes -  simply use `console.log` to store logs. 
 
-All logs are enriched with sessionId, url, userAgent etc. 
+Writing all browser logs to Sematext Cloud. This library overwrites `console.log`, `console.error`, `console.warn` functions.
+Logs are displayed in browser console and forwarded to Sematext Cloud. 
+
+In addition it installs an error handler logging all errors. 
+All logs are enriched with sessionId from cookies, url, and user agent etc. 
 
 Example web page: 
 
