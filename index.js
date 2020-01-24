@@ -40,7 +40,7 @@ function sematextLogger (token, region, receiverUrl) {
   function sematextLog (severity) {
     var args = []
     for (var i = 1; i < arguments.length; i++) {
-      args.push(arguments[1])
+      args.push(arguments[i])
     }
     var msg = {
       '@timestamp': new Date(),
