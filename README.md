@@ -1,6 +1,6 @@
 # sematext-js-console-logger
 
-Persist your browser logs in Sematext Cloud with no code changes -  simply use `console.log` to store logs. 
+Persist your browser logs in [Sematext Cloud](https://sematext.com/cloud) with no code changes -  simply use `console.log` to store logs. 
 
 Writing all browser logs to Sematext Cloud. This library overwrites `console.log`, `console.error`, `console.warn` functions.
 Logs are displayed in browser console and forwarded to Sematext Cloud. 
@@ -9,6 +9,30 @@ In addition it installs an error handler logging all errors.
 All logs are enriched with sessionId from cookies, url, and user agent etc. 
 
 See also: [quick start instructions to setup your log storage](https://sematext.com/docs/logs/quick-start/). 
+
+Once you created a logs App, add this script to your web-page: 
+
+- Sematext Cloud in USA
+```
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js">
+  sematextLogger('YOUR_LOGS_TOKEN', 'US')
+</script>
+```
+- Sematext Cloud in Europe
+```
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js">
+  // Sematext Cloud in Europe
+  sematextLogger('YOUR_LOGS_TOKEN', 'EU')
+</script>
+```
+
+- Sematext Enterprise
+```
+<script src="https://cdn.jsdelivr.net/gh/megastef/sematext-js-console-logger@master/index.js">
+  // Sematext Enterprise 
+  sematextLogger('YOUR_LOGS_TOKEN', 'local', 'http://your-sematext-server:port')
+</script>
+```
 
 Example web page: 
 
