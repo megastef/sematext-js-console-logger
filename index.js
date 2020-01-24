@@ -71,7 +71,7 @@ function sematextLogger (token, region, receiverUrl) {
   console.warn = function () { sematextLog('warn', ...arguments) }
   // catching all errors
   window.addEventListener('error', function (evt) {
-    console.log("Error event: '" + evt.message + "' from " + evt.filename + ':' + evt.lineno, evt)
+    console.error("Error event: '" + evt.message + "' from " + evt.filename + ':' + evt.lineno, evt)
     evt.preventDefault()
   })
   setInterval(shipLogs, 5000)
